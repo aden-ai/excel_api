@@ -27,7 +27,7 @@ If a specified row contains strings or other non-numeric values, these are silen
 3.Duplicate Row Names
 The current implementation returns the first matching row. If multiple rows have the same label, subsequent values are ignored.
 
-4. String Formatting
+4.String Formatting
 Minor inconsistencies in whitespace or punctuation in row_name (e.g., trailing = or double spaces) can cause valid rows to be missed.
 
 5.Case Sensitivity
